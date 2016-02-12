@@ -1,0 +1,48 @@
+{
+  "name": "un-peaceday",
+  "title": "Peace Day",
+  "description": "UN Peace Day project",
+  "version": "0.1.0",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+
+  "keywords": [],
+
+  "dependencies": {
+    "gulp-install": "^0.4.0"
+  },
+
+  "devDependencies": {   
+    "clone"               : "",
+    "gulp"                : "",
+    "gulp-sass"           : "2.0.0",
+    "gulp-compass"        : "2.0.4",
+    "gulp-iconfont"       : "^1.0.0",
+    "gulp-iconfont-css"   : "0.0.9",
+    "gulp-plumber"        : "1.0.1",
+    "gulp-util"           : "3.0.4",
+    "gulp-wrap-amd"       : "0.5.0",
+    "gulp-rename"         : "1.2.2",
+    "requirejs"           : "2.1.18",
+    "gulp-run"            : "1.6.8"
+  },
+  
+  "scripts" : {
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore .",
+    "jsonlint" : "bash scripts/jsonlint.sh"
+  },
+
+  "pre-commit": [ ]
+}

@@ -1,0 +1,27 @@
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+
+	ul {
+		margin: auto;
+		overflow: hidden;
+		position: relative;
+		max-width: 440px;
+		padding: 50px 0;
+		width: 90%;	
+	}
+
+	li {
+			width: 20%;
+			text-align: center;
+	}
+
+	a {
+		color: $light_grey;
+		font-size: 1.3rem;
+		text-transform: lowercase;
+		@include sourceSans();
+	}
+}

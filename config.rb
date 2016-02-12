@@ -1,0 +1,7 @@
+http_path = "/"
+css_dir = "app/css"
+sass_dir = "scss"
+images_dir = "app/images"
+http_images_path = "images"
+generated_images_dir = "app/images/generated"
+http_generated_images_path = "/images/generated"

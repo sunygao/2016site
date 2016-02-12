@@ -1,0 +1,33 @@
+{
+	"src" : {
+		"sass" : {
+			"files" : [
+				"scss/*.scss", 
+				"scss/**/*.scss", 
+				"scss/**/**/*.scss"
+			],
+			"folder" : "scss"
+		}
+	},
+	"deploy" : {
+		"src" : "build",
+		"css" : {
+			"path" : ""
+		}
+	},
+	"development" : {
+		"css" : {
+			"path" : "app/css"
+		}
+	},
+	"iconfont": {
+		"srcSVG": "app/fonts/svg-sprites/*.svg",
+		"cssTempSrc" : "scss/common/template/_iconfont.css",
+		"sassDest": "../../../scss/common/_iconfont.scss",
+		"fontPath": "../fonts/iconfont/",
+		"destFontPath": "app/fonts/iconfont/"
+	}
+}
+
+
+	

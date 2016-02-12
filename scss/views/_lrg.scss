@@ -1,0 +1,90 @@
+/** Base font-size of 62.5% to have the convenience of sizing rems in a way that is similar to using px. 14px = 1.4rem **/
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  @include sourceSans();
+} 
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: $dark_grey;
+	background: #fff;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.table {
+	display: table;
+	position: relative;
+}
+
+.table-cell {
+	display: table-cell;
+	position: relative;
+	vertical-align: middle;
+}
+
+.content-responsive,
+.full-size {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+*[hidden],
+.hide,
+.undisplay { display: none; }
+
+main {
+	height: 100%;
+	padding: 0 50px;
+}
+
+.shadow {
+	position: relative;
+//	@include box-shadow(0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset);
+
+	&:before,
+	&:after {
+		bottom: 14px;
+    left: 4%;
+    width: 50%;
+    height: 12%;
+    max-width: 100%;
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    content: "";
+    position: absolute;
+    z-index: -2;
+	}
+
+	&:after {
+		right: 4%;
+    left: auto;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+
+	}
+}
+
+
+@import "nav/lrg";
+@import "home/lrg";

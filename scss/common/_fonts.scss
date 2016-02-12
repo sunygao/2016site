@@ -1,0 +1,40 @@
+@mixin playfair() {
+	font-family: 'Playfair Display', 'Garamond', serif;
+	font-weight: 400;
+}
+
+@mixin playfairBold() {
+	font-family: 'Playfair Display', 'Garamond', serif;
+	font-weight: 700;
+}
+
+@mixin playfairExtraBold() {
+	font-family: 'Playfair Display', 'Garamond', serif;
+	font-weight: 900;
+}
+
+@mixin garamond() {
+	font-family: 'EB Garamond', 'Garamond', serif;
+	font-weight: 400;
+}
+
+@mixin sourceSansLight() {
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-weight: 300;
+}
+
+@mixin sourceSans() {
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-weight: 400;
+}
+
+@mixin sourceSansBold() {
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-weight: 700;
+}
+
+
+@mixin sourceSansExtraBold() {
+	font-family: 'Source Sans Pro', arial, sans-serif;
+	font-weight: 900;
+}
